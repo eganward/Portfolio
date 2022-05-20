@@ -60,16 +60,22 @@ header nav ul li a {
     position: relative;
 }
 
-/*End Hero Styling*/
+/* End Hero Styling */
+
+
 
 .about-me h2 {
-   font-size: 55px;
+   display: inline-block;
+    font-size: 55px;
    color: #024e76;
+   float: left;
+   
 }
 
 .about-me p {
-    text-align: right;
+    float: right;
     border-left: 6px solid #024e76;
+    
 }
 
 .work h2 {
