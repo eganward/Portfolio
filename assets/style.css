@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 25px;
+    background-color:slategrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+/* Start hero styling */
+.hero {
+    padding: 60px;
+    background-image: url(../assets/images/binary_code.jpeg);
+    height: 200px; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.hero-text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/*End Hero Styling*/
+
+.about-me h2 {
+   font-size: 55px;
+   color: #024e76;
+}
+
+.about-me p {
+    text-align: right;
+    border-left: 6px solid #024e76;
+}
+
+.work h2 {
+    font-size: 55px;
+    color: #024e76;
+
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.contact-me h2 {
+    font-size: 55px;
+   color: #024e76;
+  
+
+}
+
+section {
+    padding: 60px;
+}
